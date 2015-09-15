@@ -1,0 +1,23 @@
+{
+  "name": "mongoktapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "loadusers": "node  --max-old-space-size=4000 ./data/load_users.js",
+    "loadprojects": "node  --max-old-space-size=4000 ./data/load_projects.js",
+    "loadtasks": "node  --max-old-space-size=4000 ./data/load_tasks.js",
+    "loadtimerecords": "node  --max-old-space-size=4000 ./data/load_tasks_times.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "3.10.1",
+    "mongoose": "4.1.4",
+    "mongoose-fakery": "0.1.7",
+    "log4js": "0.6.26",
+  }
+}

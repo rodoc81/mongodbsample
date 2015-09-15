@@ -1,0 +1,10 @@
+{
+	"logFile" : "./../results.log",
+	"mongoDbName" : "mongoktapp",
+	"mongoDbConnection" : "mongodb://localhost/mongoktapp",
+	"usersMaxCount" : 100000,
+	"phoneMaxCount" : 100000,
+	"projectsMaxCount" : 10000,
+	"tasksMaxCount" : 100000,
+	"timeAccountingRecord" : 100000
+}
